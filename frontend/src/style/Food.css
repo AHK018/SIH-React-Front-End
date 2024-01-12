@@ -1,0 +1,176 @@
+
+:root{
+    --green:#eb8220e5;
+    --black: rgb(74, 22, 113);
+    --light-color: rgb(170, 151, 151);
+    --box-shadow:0.5rem 1.5rem rgba(0,0,0,.1);
+} 
+
+.heading45{
+    text-align: center;
+    font-size:4rem;
+    padding-bottom:2rem ;
+    color: var(--black);
+    text-transform: uppercase;
+}
+.btn-shri-99{
+    font-size: 2rem;
+    display: inline-block;
+    color: #ffff;
+    background-color: var(--black);
+    border-radius: 1rem;
+    cursor: pointer;
+    padding: 1rem 1rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.btn-shri-99:hover{
+    background: var(--green);
+    letter-spacing: .1rem;
+}
+
+section:nth-child(even){
+    background: white;
+}
+
+
+@media(max-width:922px){
+    html{
+        font-size: 50%;
+    }
+    header{
+        padding: 1rem 2rem;
+    }
+}
+
+@media (max-width:768px) {
+    
+.dishes .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+    gap: 0rem;
+    margin: 0px;
+    
+    
+    
+ }
+    
+}
+
+
+
+.dishes .box-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit,minmax(22rem,1fr));
+   gap: 1.5rem;
+   margin: 0px;
+   
+   
+   
+}
+.box-shri-55{
+    display: flex;
+    justify-content: space-between;
+	position: relative;
+}
+
+.row-shri-34{
+    display: grid;
+    width: 80%;
+    grid-template-columns: 120px 120px 120px;
+    align-items: start;
+    justify-content: space-between;
+}
+.dishes .box-shri-55 .box-container .row-shri-34 {
+    padding: 2.5rem;
+    margin: 20px;
+    width: 30%;
+    background: #ffff;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-between;
+
+	padding: 4px;
+    
+
+	
+    border: .1rem solid rgba(0,0,0,.2);
+    box-shadow: var(--box-shadow);
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+        flex-wrap: wrap;
+        margin-right: 58px;
+        margin-left: -73px;
+    }
+    
+    .dishes .box-shri-55 .box-container .fa-heart,
+    .dishes .box-shri-55 .box-container .fa-eye{
+    position:absolute;
+    top: 1.5rem;
+    background: #eee;
+    border-radius: 50%;
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: var(--black);
+   
+}
+
+
+.dishes .box-shri-55 .box-container .fa-eye:hover{
+    background: var(--green);
+    color: #ffff;
+}
+.dishes .box-shri-55 .box-container .fa-heart:hover{
+    background: red;
+    color: #ffff;
+}
+
+.dishes .box-shri-55 .box-container .fa-heart{
+    right: 1.5rem;
+}
+.dishes .box-shri-55 .box-container .fa-eye{
+    left: 1.5rem;
+}
+
+.dishes .box-shri-55 .box-container .fa-heart{
+    right: -15rem;
+}
+.dishes .box-shri-55 .box-container .fa-eye{
+    left: -15rem;
+}
+.dishes .box-shri-55 .box-container:hover .fa-heart{
+    right: 1.5rem;
+}
+.dishes .box .box-container:hover .fa-eye{
+    left: 1.5rem;
+}
+
+.dishes .box-shri-55 .box-container img{
+    height: 17rem;
+    margin: 1rem 0;
+
+}
+
+.dishes .box-shri-55 .box-container h3{
+    color: var(--black);
+    font-size: 2rem;
+}
+
+.dishes .box-shri-55 .box-container .stars{
+    padding: 1rem 0;
+}
+
+.dishes .box-shri-55 .box-container .stars i{
+    font-size: 1.7rem;
+    color: var(--green);
+}
+.dishes .box-shri-55 .box-container  span{
+    color: var(--green);
+    font-weight:bolder ;
+    margin-right:1rem ;
+    font-size: 2.5rem;
+}

@@ -1,0 +1,71 @@
+npm install @mui/material @emotion/react @emotion/styled
+
+npm install @mui/material @mui/styled-engine-sc styled-components
+
+npm install @mui/icons-material
+
+
+
+**Tailwind dependancies for component**
+npm install @headlessui/react
+
+
+**3D- assets dependancies**
+
+npm install --save three
+
+npm i @react-three/fiber @react-three/drei 
+
+
+**index.html structure**
+
+	<body>
+		<script type="module" src="/main.js"></script>
+	</body>
+
+
+**import formate**
+  import * as THREE from 'three';
+
+**import styled-components**
+npm install styled-components
+npm install react-dom
+
+
+**GLTF Pipeline setup in Laptop***  {REPO: https://github.com/CesiumGS/gltf-pipeline}
+npm install -g gltf-pipeline   [ run in terminal]
+
+[convert GLTF to GLtf supported]: {Go to the folder where GLTF file present}
+gltf-pipeline -i scene.gltf -o robo.glb
+
+[GLTF to JSX file]: {Go to the folder where GLTF file present}
+npx gltfjsx model.gltf --transform
+OR
+npx gltfjsx model.gltf 
+
+
+**GSAP**
+npm install gsap
+
+**Baffle**
+npm install baffle
+
+
+
+**scroll-line **
+npm i react-scroll-trigger
+
+
+**icons**
+npm install react-icons
+npm install react-icons/fa
+
+
+#lenis library
+npm install lenis
+# or
+yarn add lenis
+
+
+****carousole slideings****************
+npm install react-slick slick-carousel

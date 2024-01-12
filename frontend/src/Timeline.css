@@ -1,0 +1,85 @@
+.timeline-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+  }
+  
+  /* Customize timeline colors and styles as needed */
+  .vertical-timeline-element-content {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .vertical-timeline-element-date {
+    color: #2ecc71;
+  }
+  
+  .vertical-timeline-element-icon {
+    box-shadow: 0 0 0 4px #b9d4c4, 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .vertical-timeline-element-line {
+    border-left: 2px solid #3498db; /* Set the border color to blue */
+    height: 100%; /* Adjust as needed */
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+  }
+  
+  .custom-date {
+  color: black; /* Set the color to black or any other color you prefer for date */
+  }
+  
+  .custom-date1 {
+  color: red; /* Set the color to red or any other color you prefer for date1 */
+  }
+  
+  .different-date {
+  /* Add styles for the case when date and date1 are different */
+  /* For example, you can set a different background or border color */
+  border: 1px solid red;
+  }
+  
+  .modal-scrollable-content {
+  max-height: 1200px; /* Set the maximum height you desire */
+  overflow-y: auto; /* Enable vertical scrollbar if content exceeds the height */
+  }
+  
+  
+  .modal-content {
+  width: 80%;
+  max-width: 800px;
+  height: 80%;
+  max-height: 600px;
+  overflow: auto;
+  margin: auto;
+  
+  background-color: #f0f0f0; /* Set your desired background color */
+  padding: 20px; /* Adjust padding as needed */
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .modal-scrollable-content {
+  /* Adjust the scrollable content styles as needed */
+  max-height: 100%; /* Ensure the content can expand to the available height */
+  overflow-y: auto; /* Enable vertical scrollbar if content exceeds the height */
+  }
+  
+  .vertical-timeline::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  border-left: 2px solid #ccc; /* Adjust the color as needed */
+  transform: translateX(-50%);
+  }
+  
+  .last-upcoming::before {
+  content: none; /* Hide the line for the last upcoming station */
+  }

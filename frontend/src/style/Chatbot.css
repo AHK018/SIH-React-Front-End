@@ -1,0 +1,83 @@
+
+
+.tiles {
+	/* Adjust margin to create space above the chat box */
+	margin: 30px auto 10px;
+  }
+  
+  /* Style for chat messages */
+  .message {
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 5px;
+	word-wrap: break-word;
+	background-color: #f0f0f0;
+  }
+  
+  .user-message {
+	background-color: #007bff;
+	color: #fff;
+  }
+  
+  /* Style for message input */
+  #message-input {
+	width: 100%;
+	min-height: 40px;
+	word-wrap: break-word;
+  }
+  
+  /* Add this CSS to your stylesheets */
+  .overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 999; /* Ensure the pop-up appears above other content */
+  }
+  
+  .popup-inner {
+	/* Styles for the pop-up content */
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Scrollbar Track */
+::-webkit-scrollbar {
+	width: 0px; /* Width of the scrollbar */
+	height: 0px;
+	cursor: pointer;
+  }
+
+  .chatboat-top-items::-webkit-scrollbar {
+	height: 3px;
+	cursor: pointer;
+	background-color: #b0e4e7c6;
+  }
+  
+  
+  /* Scrollbar Handle/Thumb */
+  ::-webkit-scrollbar-thumb {
+	background-color: #00a6ff; /* Adjust opacity for visibility */
+	border-radius: 4px; /* Rounded corners for the thumb */
+	cursor: pointer;
+  }
+  
+  /* Optional: Hover styles for scrollbar */
+  ::-webkit-scrollbar-thumb:hover {
+	cursor: pointer;
+	background-color: rgba(28, 164, 255, 0.88); /* Adjust opacity for visibility on hover */
+  }
+  
+
+  ::-webkit-scrollbar-thumb {
+	cursor: pointer;
+	background-color: rgba(159, 191, 255, 0.88); /* Adjust opacity for visibility on hover */
+  }
+  

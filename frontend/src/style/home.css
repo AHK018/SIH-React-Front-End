@@ -1,0 +1,24 @@
+
+  .svg-line-anime {
+    width: 100vmin;
+    height: 100vmin;
+  }
+
+::-webkit-scrollbar{
+  width: 0;
+}
+
+
+.home-c-l-get-app{
+  display: block;
+  font-family: 'Archivo', sans-serif;
+}
+
+.home-c-l-main-heading{
+  font-family: 'Gothic A1', sans-serif;
+}
+
+.home-c-l-main-description {
+  
+  font-family: 'Roboto', sans-serif;
+}
